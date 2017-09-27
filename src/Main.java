@@ -5,7 +5,7 @@ public class Main {
         int suma = 0;
 
         for (int i = 0; i <= numbers.length - 1; i++){
-            suma = suma + numbers[i];
+            suma += numbers[i];
             i++;
         }
         System.out.println(suma);
